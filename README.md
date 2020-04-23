@@ -18,11 +18,12 @@ clamav
 WINE
 
 ## passo a passo:
-instale o git 
-### sudo apt install git
-clone este repositorio 
-### git clone ...
-abra o repositorio, e execulte o arquivo my_ubuntu.sh 
-### ./my_ubuntu.sh 
+### instale o git 
+sudo apt install git
+### clone este repositorio 
+git clone ...
+### abra o repositorio, e execulte o arquivo my_ubuntu.sh 
+./my_ubuntu.sh 
+
 digite a senha de usuario, e aguarde .
 
