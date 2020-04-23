@@ -1,14 +1,15 @@
 #!/usr/bin/env bash
 sudo rm /var/lib/dpkg/lock-frontend ; sudo rm /var/cache/apt/archives/lock
 sudo apt update -y
-cd DOwnloads
+mkdir $HOME/Downloads/programas
+cd $HOME/Downloads/programas
 wget -nc 'https://dl.winehq.org/wine-builds/winehq.key'
 sudo apt-key add winehq.key -y
 sudo apt install snapd -y
 sudo add-apt-repository ppa:graphics-drivers/ppa -y
 sudo apt update -y
 sudo apt install --install-recommends winehq-stable wine-stable wine-stable-i386 wine-stable-amd64 -y
-##flatpak install flathub com.obsproject.Studio -y
+flatpak install flathub com.obsproject.Studio -y
 sudo snap install brave -y
 sudo snap install code--classic -y
 sudo apt install anydesk -y
