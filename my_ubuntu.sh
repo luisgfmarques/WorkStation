@@ -6,7 +6,7 @@ mkdir $HOME/Downloads/programas
 cd $HOME/Downloads/programas
 wget -nc 'https://dl.winehq.org/wine-builds/winehq.key'
 
-## instalação pacotes basicos:
+## instalação pacotes basicos :
 sudo apt-key add winehq.key 
 sudo apt install snapd -y
 sudo add-apt-repository ppa:graphics-drivers/ppa 
